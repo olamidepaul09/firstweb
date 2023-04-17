@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+    <style>
+        body{
+            width: 1000px;
+            /* border: solid 1px black; */
+            text-align: center;
+            padding-top: 50px;
+            /*padding-left: 500px;*/
+            margin-left: 200px;
+        }
+        body h1{
+            font-size: 50px;
+        }
+        form{
+            background-color: black;
+            width: 500px;
+            padding: 100px;
+            padding-top: 50px;
+            /*margin: 200px;*/
+            margin-left: 150px;
+            color: yellow;
+            border-radius: 50px;
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            /*box-shadow: 50px;*/
+        }
+        input{
+            border-radius: 30px;
+            padding: 20px;
+            width: 400px;
+            margin: 10px;
+
+        }
+        form h2 {
+            font-size: 50px;
+            margin-bottom: 50px;
+        }
+        button{
+            padding: 10px;
+            width: 210px;
+            border: solid 2px yellow;
+            background-color: black;
+            color: yellow;
+            margin: 5px;
+            border-radius: 50px;
+
+        }
+        iframe{
+            border: none;
+            width: 500px;
+            height: 200px;
+
+        }
+        /* body h4{
+
+        } */
+        
+    </style>
+</head>
+<body>
+    <h1>Welcome to ReadIn</h1>
+    <form>
+        <h2>Log In</h2>
+        <label id="Username">Username</label><br>
+        <input type="text" id="Username" placeholder="Username" name="Username"><br><br>
+        <label id="Password">Password</label><br>
+        <input type="password" id="Password" placeholder="Password" name="password"><br><br>
+        <!--input type="submit"-->
+        <button href="full_story.html">Log In</button>
+        <button href="signup.html">Sign Up</button>
+    </form>
+    <h4>forget password? <a href="reset.html">Click Here</a></h4>
+
+
+    <a href="full_story.html"><iframe src="full_story.html"></iframe></a>
+</body>
+</html>

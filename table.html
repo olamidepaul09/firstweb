@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+
+
+    <style>
+        table {
+            border: solid 1px black;
+            border-collapse: collapse;
+        }
+        th{
+            border: solid 1px black;
+        }
+
+        td{
+            border: solid 1px black;
+        }
+        td col span {
+            background-color: yellow;
+
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+        <!-- <colgroup>
+            <col span="2" style="background-color: yellow;">
+        </colgroup> -->
+        <tr>
+            <th rowspan="2">Name</th>
+            <th colspan="2">class</th>
+            <th></th>
+            <th>Gender</th>
+            <th>Department</th>
+        </tr>
+        <tr>
+            <th></th>
+            <th>Class</th>
+            <th>Gender</th>
+            <th>Department</th>
+        </tr>
+        <tr>
+            <td colspan="2">OlamidePaul</td>
+            <td>Jss 1</td>
+            <td>Male</td>
+            <td>Science</td>
+        </tr>
+        <tr>
+            <td>David</td>
+            <td>John</td>
+            <td>Jss 2</td>
+            <td>Male</td>
+            <td>Art</td>
+        </tr>
+        
+    </table>
+   
+
+</body>
+</html>
